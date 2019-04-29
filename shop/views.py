@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse
 
+import pandas as pd
 from django.views.generic import CreateView, UpdateView
 from .models import Item
 from .form import ItemForm
@@ -33,7 +34,6 @@ def item_detail(request, pk):
     item = get_object_or_404(Item, pk=pk)
     return render(request, 'shop/item_detail.html',
                   {'item': item})
-
 
 
 
