@@ -111,7 +111,7 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
